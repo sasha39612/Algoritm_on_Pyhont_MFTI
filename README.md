@@ -1,2 +1,0 @@
-# Algoritm_on_Pyhont_MFTI
-Practice_job
