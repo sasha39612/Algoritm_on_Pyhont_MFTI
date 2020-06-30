@@ -1,6 +1,7 @@
-N = int(input())
-price = [] * (N + 1)
-prev = [] * (N + 1)
+N = int(input()) # input N data's
+price = list(map(int, input().split())) # input N + 1 data's
+
+prev = [0] * (N + 1)
 C = [0] * (N + 1)
 prev[1] = 0
 C[1] = price[1]
